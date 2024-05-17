@@ -10,7 +10,7 @@ logger.setLevel(logging.INFO)
 @app.route('/')
 def hello():
     logger.info('Hello endpoint accessed')
-    return 'Hello, World, Ajay code!'
+    return 'Hello, World, Ajay code mode code!'
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8081)
